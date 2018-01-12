@@ -1,0 +1,17 @@
+{
+  "name": "node-arduino-blink",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "firmata": "firmata-party uno --debug",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firmata": "^0.19.1",
+    "firmata-party": "^1.5.9"
+  }
+}
